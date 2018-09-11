@@ -541,6 +541,40 @@ color:#CE4032;
   height: 250px;
   }
 
+@media(max-width:725px) {
+
+  .videos-link {
+    font-size:1.0em;
+  }
+
+  .playlist-link {
+     font-size:1.0em;
+
+  }
+  .fa-bars {
+     font-size:1.0em;
+  }
+
+
+
+
+.shares-link {
+  font-size:1.0em;
+
+}
+
+.fa-share {
+  font-size: 1.2em;
+}
+    bottom-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    justify-content: flex-start;
+    margin-top: 55px;
+  }
+}
 
   @media(max-width:650px) {
 
@@ -600,7 +634,7 @@ color:#CE4032;
 }
 */
 
- @media(max-width:180px) {
+
 
 
 
