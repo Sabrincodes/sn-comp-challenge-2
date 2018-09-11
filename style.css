@@ -236,3 +236,161 @@ h6 {
 
 
 }
+
+
+.top-half-1 {
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  background-image: url('images/bilalwide.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.25),
+  rgba(0, 0, 0, 0.25)
+   ),
+}
+.number-under{
+  color:#CE4032;
+}
+
+h4 {
+  color:black;
+}
+h5 {
+
+  padding-left:6%;
+}
+
+p {
+
+  padding-left:6%;
+
+}
+
+h2 {
+
+  padding-left:6%;
+  color: # E6C229;
+}
+
+h4 {
+
+  padding-left:6%;
+}
+.top-half-2 {
+
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  background-image: url('images/bilal3.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+/*  background: linear-gradient(
+/*  rgba(0, 0, 0, 0.05),
+  rgba(0, 0, 0, 0.05)
+   );*/
+}
+
+.top-half-3 {
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  background-image: url('images/snow.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+
+    box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
+  
+
+}
+
+.top-half-4 {
+   display: flex;
+    color:white;
+  justify-content: space-between;
+  background-image: url('images/Liyana.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+
+  
+}
+
+
+.top-half-5 {
+  display: flex;
+  color:black;
+  justify-content: space-between;
+  background-image: url('images/khama.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+
+  
+}
+
+.top-half-6 {
+  display: flex;
+  color:black;
+  justify-content: space-between;
+  background-image: url('images/naijacartoon.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+
+    box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
+  
+}
+
+.top-half-7 {
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  background-image: url('images/kwezi.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+  box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
+  
+
+}
+
+
+.top-half-8 {
+   display: flex;
+    color:white;
+  justify-content: space-between;
+  background-image: url('images/stick-man.jpg');
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  margin-left: 20px;
+  background-size: cover;
+  height: 180px;
+
+}
+
+ h6 {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
