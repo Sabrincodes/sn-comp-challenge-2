@@ -139,14 +139,24 @@ nav a {
   align-items: center;
   display: flex;
   flex-direction: row;
-  font-size: 1.5em;
+  font-size: 1.25em;
   justify-content: flex-start;
   margin-top: 55px;
 }
 
 .afr-cartoons {
-  font-size: 1em;
+    font-size: 1em;
+    color: #56585E;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0px 0 -46px -51px;
+    /* margin: 20px 0; */
+}
 
+.amtoons {
+  font-size: 52px;
+    color: white;
+    margin-top: 65px;
 }
 
 
@@ -262,6 +272,7 @@ h6 {
 .number-under{
   color:#CE4032;
   font-size: 1.4rem;
+  padding-bottom: 11px;
 
 }
 
@@ -272,15 +283,49 @@ h4 {
 
 .recepients-name {
     padding-top: 17px;
+     padding-left: 23px;
 
 }
 h5 {
-
-  padding-left:6%;
 }
+
+  .shares-link:hover {
+    color:#CE4032;;
+  }
+
+  .playlist-link:hover {
+    color:#CE4032;
+
+  
+  }
+
+  .videos-link:hover {
+    color:#CE4032;
+  }
+
+
+.top-nav:hover {
+  color:#CE4032;
+}
+
+.fa-video:hover {
+  color:#CE4032;
+}
+
+.fa-bars:hover {
+  color:#CE4032 ;
+}
+
+.fa-share {
+  color:#CE4032;
+}
+ .fa-share-square:hover {
+  color: green;
+ }
 
 .playlist {
   padding-top:12px;
+   padding-left: 23px;
 
 }
 
@@ -289,8 +334,23 @@ h5 {
 
 .website {
    padding-top: 17px;
+    font-size: 16px;
+    background-color: #CE4032;
+    color: black;
+    padding: 8px;
+    margin: 20px 0;
+    word-break: break-all;
 
 }
+
+.fa-align-right {
+height: 92px;
+    width: 104px;
+    color: #e80909;
+    padding-right: 28px;
+    padding-top: 60px;
+  }
+
 
 p {
 
@@ -302,6 +362,12 @@ h2 {
 
   padding-left:6%;
   color: # E6C229;
+}
+
+
+
+  .bottom-nav:hover {
+    padding-left: 6%;
 }
 
 h4 {
@@ -453,7 +519,7 @@ h4 {
 .top-nav{
   display:hidden 
 }
-  
+
 
   .username {
     font-size:1em;
@@ -469,7 +535,7 @@ color:#CE4032;
 
   }
 
-  .fa-video:hove {
+  .fa-video:hover {
 
   }
 
@@ -485,8 +551,61 @@ color:#CE4032;
   height: 250px;
   }
 
+@media(max-width:725px) {
+
+  .videos-link {
+    font-size:1.0em;
+  }
+
+  .playlist-link {
+     font-size:1.0em;
+
+  }
+  .fa-bars {
+     font-size:1.0em;
+  }
+
+.shares-link {
+  font-size:1.0em;
+
+}
+
+.fa-share {
+  font-size: 1.0em;
+}
+/*    bottom-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    justify-content: flex-start;
+    margin-top: 55px;
+  }*/
+}
 
   @media(max-width:650px) {
+
+
+      .videos-link {
+    font-size:1.0em;
+  }
+
+  .playlist-link {
+     font-size:1.0em;
+
+  }
+  .fa-bars {
+     font-size:1.0em;
+  }
+
+.shares-link {
+  font-size:1.0em;
+
+}
+
+.fa-share {
+  font-size: 1.0em;
+}
 
   .header-space {
   font-size: 1em;
@@ -498,7 +617,7 @@ color:#CE4032;
 
  .bottom-nav {
   font-size: 1em;
-  border: 2px solid red;
+ /* border: 2px solid red;*/
   }
 
 }
@@ -506,6 +625,52 @@ color:#CE4032;
 .afr-cartoons {
   font-size:2rem;
 }
+}
+
+ @media(max-width:570px) {
+
+  .top-nav{
+  display:hidden;
+}
+
+
+  .videos-link {
+    font-size:.8em;
+  }
+
+  .playlist-link {
+     font-size:0.8em;
+
+  }
+  .fa-bars {
+     font-size:0.8em;
+  }
+
+.shares-link {
+  font-size:0.8em;
+
+}
+
+.fa-share {
+  font-size: 0.8em;
+}
+
+.fa-align {
+font-size:.8em;
+
+
+
+
+
+  
+
+}
+
+
+
+
+
+
 
  @media(max-width:460px) {
 
@@ -513,7 +678,8 @@ color:#CE4032;
   font-size: 1em;
   display:flex;
   flex-direction: column;
-  height: 500px;
+ 
+     height: 53px;
   height: 250px;
   }
 
@@ -523,21 +689,40 @@ color:#CE4032;
   display:flex;
   flex-direction: column;
   font-size: 1em;
-  border: 2px solid red;
-  height:200px;
+  
+     font-size: 1em;
+    height: 53px;
   margin-bottom: 100px;
   }
 
 .afr-cartoons {
   font-size:1.5rem;
 }
+
+.recepients {
+  padding-left:15px;
+
+
 }
+
+
+ @media(max-width:360px) {
+  .top-half-1 {
+    /* display: flex; */
+    color: white;
+    justify-content: space-between;
+    background-image: url(images/bilalwide.jpg);
+    background-repeat: no-repeat;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)) margin-left: 20px;
+    background-size: cover;
+    height: 88px;
+
 /*.header-space {
   display:block;
 }
 */
 
- @media(max-width:180px) {
+
 
 
 
