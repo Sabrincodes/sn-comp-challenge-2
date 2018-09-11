@@ -589,30 +589,41 @@ color:#CE4032;
 
   @media(max-width:650px) {
 
+     .bottom-nav {
+    display:block;
+  }
+
+
+
 
       .videos-link {
-    font-size:1.0em;
+
+    font-size: .5em;
+
   }
 
   .playlist-link {
-     font-size:1.0em;
+   
+     font-size: .5em;
 
   }
   .fa-bars {
-     font-size:1.0em;
+
+     font-size: .5em;
   }
 
 .shares-link {
-  font-size:1.0em;
+
+  font-size: .5em;
 
 }
 
 .fa-share {
-  font-size: 1.0em;
+  font-size: 0.5em;
 }
 
   .header-space {
-  font-size: 1em;
+  font-size: .5em;
   display:flex;
   flex-direction: column;
   height: 500px;
@@ -620,7 +631,7 @@ color:#CE4032;
   }
 
  .bottom-nav {
-  font-size: 1em;
+  font-size: .7em;
  /* border: 2px solid red;*/
   }
 
