@@ -343,6 +343,15 @@ h5 {
 
 }
 
+.fa-align-right {
+height: 92px;
+    width: 104px;
+    color: #e80909;
+    padding-right: 28px;
+    padding-top: 60px;
+  }
+
+
 p {
 
   padding-left:6%;
@@ -510,7 +519,7 @@ h4 {
 .top-nav{
   display:hidden 
 }
-  
+
 
   .username {
     font-size:1em;
@@ -646,6 +655,9 @@ color:#CE4032;
   font-size: 0.8em;
 }
 
+.fa-align {
+font-size:.8em;
+
 
 
 
@@ -691,8 +703,6 @@ color:#CE4032;
   padding-left:15px;
 
 
-
-}
 }
 
 
