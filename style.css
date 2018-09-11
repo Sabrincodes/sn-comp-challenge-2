@@ -127,11 +127,10 @@ nav a {
 
 .fa-broadcast-tower {
   color:#CE4032;
-/*  font-size: 3em;*/
-  padding-left: 3em;
-  float: right;
-  height: 100px;
-  width: 250px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
 }
 
 
@@ -219,8 +218,15 @@ h6 {
 
 .top-views {
   color:#CE4032;
+}
+
+.amtoons {
+
 
 }
+
+
+
 
 
 .card {
@@ -255,14 +261,35 @@ h6 {
 }
 .number-under{
   color:#CE4032;
+  font-size: 1.4rem;
+
 }
 
 h4 {
   color:black;
+  padding:17px;
+}
+
+.recepients-name {
+    padding-top: 17px;
+
 }
 h5 {
 
   padding-left:6%;
+}
+
+.playlist {
+  padding-top:12px;
+
+}
+
+
+
+
+.website {
+   padding-top: 17px;
+
 }
 
 p {
@@ -390,7 +417,7 @@ h4 {
  h6 {
   display: block;
   font-size: 0.8rem;
-  text-transform: uppercase;
+  /*  */
   color: white;
   font-weight: 400;
 }
