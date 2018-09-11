@@ -275,9 +275,39 @@ h4 {
 
 }
 h5 {
-
-  padding-left:6%;
 }
+
+  .shares-link:hover {
+    color:#CE4032;;
+  }
+
+  .playlist-link:hover {
+    color:#CE4032;;
+  }
+
+  .videos-link:hover {
+    color:#CE4032;
+  }
+
+
+.top-nav:hover {
+  color:#CE4032;
+}
+
+.fa-video:hover {
+  color:#CE4032;
+}
+
+.fa-bars:hover {
+  color:#CE4032 ;
+}
+
+.fa-share {
+  color:#CE4032;
+}
+ .fa-share-square:hover {
+  color: green;
+ }
 
 .playlist {
   padding-top:12px;
