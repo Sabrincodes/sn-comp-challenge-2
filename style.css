@@ -145,8 +145,12 @@ nav a {
 }
 
 .afr-cartoons {
-  font-size: 1em;
-
+    font-size: 1em;
+    color: #56585E;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0px 0 -46px -51px;
+    /* margin: 20px 0; */
 }
 
 
