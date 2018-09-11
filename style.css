@@ -109,8 +109,9 @@ nav a {
     display: flex;
 /*  flex-direction: column;*/
   /*justify-content: space-between*/;
-  margin-right: -5%;
+  margin-right: -7%;
   margin-bottom: -50px;
+
 }
 
 .user-title {
@@ -141,7 +142,7 @@ nav a {
   flex-direction: row;
   font-size: 1.25em;
   justify-content: flex-start;
-  margin-top: 55px;
+  margin-top: -6px;
 }
 
 .afr-cartoons {
@@ -234,7 +235,9 @@ h6 {
 
 
 }
+.A {
 
+}
 
 
 
@@ -348,13 +351,13 @@ height: 92px;
     width: 104px;
     color: #e80909;
     padding-right: 28px;
-    padding-top: 60px;
+    padding-top: 92px;
   }
 
 
 p {
 
-  padding-left:6%;
+/*  padding-left:6%;*/
 
 }
 
@@ -518,7 +521,7 @@ h4 {
 
 .top-nav{
   display:hidden 
-}
+
 
 
   .username {
@@ -627,7 +630,19 @@ color:#CE4032;
 }
 }
 
+
+  .top-nav {
+  display:hidden;
+}
+
+ 
+
+
  @media(max-width:570px) {
+
+  .bottom-nav {
+    display:block;
+  }
 
   .top-nav{
   display:hidden;
@@ -682,8 +697,15 @@ font-size:.8em;
      height: 53px;
   height: 250px;
   }
-
-
+.bottom-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    font-size: 1em;
+    height: 67px;
+    margin-bottom: 64px;
+  }
 
  .bottom-nav {
   display:flex;
