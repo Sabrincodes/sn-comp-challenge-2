@@ -272,6 +272,7 @@ h4 {
 
 .recepients-name {
     padding-top: 17px;
+     padding-left: 23px;
 
 }
 h5 {
@@ -282,7 +283,9 @@ h5 {
   }
 
   .playlist-link:hover {
-    color:#CE4032;;
+    color:#CE4032;
+
+  
   }
 
   .videos-link:hover {
@@ -311,6 +314,7 @@ h5 {
 
 .playlist {
   padding-top:12px;
+   padding-left: 23px;
 
 }
 
@@ -319,6 +323,12 @@ h5 {
 
 .website {
    padding-top: 17px;
+    font-size: 16px;
+    background-color: #CE4032;
+    color: black;
+    padding: 8px;
+    margin: 20px 0;
+    word-break: break-all;
 
 }
 
@@ -332,6 +342,12 @@ h2 {
 
   padding-left:6%;
   color: # E6C229;
+}
+
+
+
+  .bottom-nav:hover {
+    padding-left: 6%;
 }
 
 h4 {
@@ -528,7 +544,7 @@ color:#CE4032;
 
  .bottom-nav {
   font-size: 1em;
-  border: 2px solid red;
+ /* border: 2px solid red;*/
   }
 
 }
@@ -560,6 +576,13 @@ color:#CE4032;
 
 .afr-cartoons {
   font-size:1.5rem;
+}
+
+.recepients {
+  padding-left:15px;
+
+
+
 }
 }
 /*.header-space {
