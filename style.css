@@ -151,6 +151,7 @@ nav a {
     font-size: 35px;
     font-weight: 400;
     margin: 0px 0 -46px -51px;
+    margin-left: 22px;
     /* margin: 20px 0; */
 }
 
@@ -727,6 +728,22 @@ font-size:.8em;
 
 }
 
+@media(max-width:410px) {
+
+  .top-nav {
+ 
+  justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    margin-right: -16%;
+
+
+}
+}
+
 
  @media(max-width:360px) {
   .top-half-1 {
@@ -739,10 +756,26 @@ font-size:.8em;
     background-size: cover;
     height: 88px;
 
-/*.header-space {
-  display:block;
+
 }
-*/
+}
+
+@media(max-width:410px) {
+
+  .top-nav {
+ 
+  justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    margin-right: -20%;
+
+
+  }
+}
+
 
 
 
